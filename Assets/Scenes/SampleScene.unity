@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 1395560475}
   - component: {fileID: 1395560474}
   m_Layer: 0
-  m_Name: Timer
+  m_Name: Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

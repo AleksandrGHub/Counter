@@ -4,7 +4,7 @@ using UnityEngine;
 public class Viewer : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _timerText;
-    [SerializeField] private Timer _timer;
+    [SerializeField] private Counter _counter;
 
     private void Update()
     {
@@ -13,6 +13,6 @@ public class Viewer : MonoBehaviour
 
     private void Show()
     {
-        _timerText.text = _timer.Number.ToString();
+        _timerText.text = _counter.Number.ToString();
     }
 }
